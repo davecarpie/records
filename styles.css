@@ -1,0 +1,30 @@
+#app {
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.record-name {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.record-artist {
+    color: #555555;
+    margin-top: 0px;
+}
+
+.record-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+}
+
+.artwork {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
