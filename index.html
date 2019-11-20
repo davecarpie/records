@@ -5,8 +5,9 @@
 </head>
 <body>
   <div id="app">
+    <input v-model="filterText">
     <record
-      v-for="record in records"
+      v-for="record in filteredRecords"
       v-bind:record="record">
     </record>
   </div>
