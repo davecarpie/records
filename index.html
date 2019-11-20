@@ -6,7 +6,7 @@
 </head>
 <body>
   <div id="app">
-    <input v-model="filterText">
+    <input class="search" v-model="filterText">
     <record
       v-for="record in filteredRecords"
       v-bind:record="record">

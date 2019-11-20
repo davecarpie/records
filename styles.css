@@ -28,3 +28,9 @@
     width: 200px;
     margin: 15px;
 }
+
+.search {
+    width: 100%;
+    font-size: 2em;
+    padding: 5px 10px;
+}
